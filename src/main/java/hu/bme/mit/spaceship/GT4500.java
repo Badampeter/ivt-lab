@@ -87,7 +87,7 @@ public class GT4500 implements SpaceShip {
             //don't want to override a successfull fire
             boolean secondarySuccess = secondaryTorpedoStore.fire(1);
             if(!firingSuccess)
-                firingSuccess = secondarySuccess
+                firingSuccess = secondarySuccess;
         }
         break;
     }
